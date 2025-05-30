@@ -133,7 +133,6 @@ const SignUpForm = () => {
               ) : (
                 "Criar conta"
               )}
-              Criar conta
             </Button>
           </CardFooter>
         </form>
