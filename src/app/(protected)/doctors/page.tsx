@@ -14,6 +14,8 @@ import {
 } from "@/components/ui/page-container";
 import { auth } from "@/lib/auth";
 
+import AddDoctorButton from "./_components/add-doctor-button";
+
 const DoctorsPage = async () => {
   const session = await auth.api.getSession({
     headers: await headers(),
@@ -34,7 +36,7 @@ const DoctorsPage = async () => {
         <PageActions>
           <Button>
             <Plus />
-            Adicionar Médico
+            <AddDoctorButton />
           </Button>
         </PageActions>
       </PageHeader>
