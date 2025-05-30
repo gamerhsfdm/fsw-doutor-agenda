@@ -1,3 +1,5 @@
+"use client"
+
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Loader2 } from "lucide-react";
 import { useRouter } from "next/navigation";
@@ -113,12 +115,12 @@ const LoginForm = () => {
               type="submit"
               className="w-full"
               disabled={form.formState.isSubmitting}
-            > 
+            >
               {form.formState.isSubmitting ? (
                 <Loader2 className="mr-2 h-4 w-4 animate-spin" />
               ) : (
                 "Entrar"
-              )} 
+              )}
             </Button>
           </CardFooter>
         </form>
