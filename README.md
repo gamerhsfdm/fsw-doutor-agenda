@@ -4,6 +4,13 @@
 
 ---  
 
+![Dashboard](./public/dashboard.png)
+![Agendamentos](./public/agendamentos.png)
+![Médicos](./public/medicos.png)
+![Pacientes](./public/pacientes.png)
+![Planos](./public/planos.png)
+
+
 ## ✨ Funcionalidades  
 
 ### ✅ Autenticação  
