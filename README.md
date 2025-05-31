@@ -4,13 +4,6 @@
 
 ---  
 
-![Dashboard](./public/dashboard.png)
-![Agendamentos](./public/agendamentos.png)
-![Médicos](./public/medicos.png)
-![Pacientes](./public/pacientes.png)
-![Planos](./public/planos.png)
-
-
 ## ✨ Funcionalidades  
 
 ### ✅ Autenticação  
@@ -18,9 +11,13 @@
 - Login social via Google  
 - Criação de conta  
 
+
+
 ### ✅ Gerenciamento de Clínicas  
 - Cadastro de clínicas  
 - Configuração de informações do estabelecimento  
+
+![Planos](./public/planos.png)
 
 ### ✅ Profissionais de Saúde  
 - Cadastro de médicos e profissionais da saúde  
@@ -29,21 +26,29 @@
 - Exclusão de registros  
 - Controle de disponibilidade  
 
+![Médicos](./public/medicos.png)
+
 ### ✅ Pacientes  
 - Cadastro de pacientes  
 - Edição de dados cadastrais  
 - Listagem de pacientes  
 - Exclusão de pacientes  
 
+![Pacientes](./public/pacientes.png)
+
 ### ✅ Agendamentos  
 - Criação de agendamentos médicos  
 - Listagem de agendamentos  
 - Cancelamento de agendamentos  
 
+![Agendamentos](./public/agendamentos.png)
+
 ### ✅ Interface moderna e intuitiva  
 - Layout responsivo  
 - Sidebar com navegação organizada (Route Groups)  
 - Componentes reutilizáveis com shadcn/ui  
+
+![Dashboard](./public/dashboard.png)
 
 ### ✅ Tecnologias de ponta  
 - Next.js com rotas, layouts e server actions  
