@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🩺 Dr. Agenda — Sistema de Gerenciamento de Clínicas  
 
-## Getting Started
+🚀 Aplicação moderna para gerenciamento completo de clínicas, profissionais, pacientes e agendamentos. Desenvolvido com Next.js, Drizzle ORM e shadcn/ui.  
 
-First, run the development server:
+---  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Funcionalidades  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### ✅ Autenticação  
+- Login seguro com e-mail e senha  
+- Login social via Google  
+- Criação de conta  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### ✅ Gerenciamento de Clínicas  
+- Cadastro de clínicas  
+- Configuração de informações do estabelecimento  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### ✅ Profissionais de Saúde  
+- Cadastro de médicos e profissionais da saúde  
+- Edição e atualização de informações  
+- Listagem completa de profissionais  
+- Exclusão de registros  
+- Controle de disponibilidade  
 
-## Learn More
+### ✅ Pacientes  
+- Cadastro de pacientes  
+- Edição de dados cadastrais  
+- Listagem de pacientes  
+- Exclusão de pacientes  
 
-To learn more about Next.js, take a look at the following resources:
+### ✅ Agendamentos  
+- Criação de agendamentos médicos  
+- Listagem de agendamentos  
+- Cancelamento de agendamentos  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### ✅ Interface moderna e intuitiva  
+- Layout responsivo  
+- Sidebar com navegação organizada (Route Groups)  
+- Componentes reutilizáveis com shadcn/ui  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### ✅ Tecnologias de ponta  
+- Next.js com rotas, layouts e server actions  
+- Tailwind CSS para estilização rápida e consistente  
+- Drizzle ORM para gerenciamento de banco de dados  
+- Autenticação moderna com NextAuth  
 
-## Deploy on Vercel
+---  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎨 Link do Figma  
+📌 [Protótipo do Design - Dr. Agenda](https://www.figma.com/design/0G9SAhJsDPpb9mXORSxxY3/dr.agenda?node-id=29-588&p=f)  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---  
+
+## 🛠️ Tecnologias e Ferramentas  
+
+- **Next.js** — Framework React full-stack  
+- **TypeScript** — Tipagem estática robusta  
+- **Tailwind CSS** — Estilização utilitária moderna  
+- **shadcn/ui** — Componentes acessíveis e elegantes  
+- **Drizzle ORM** — Mapeamento objeto-relacional simplificado  
+- **NextAuth** — Autenticação segura  
+- **ESLint & Prettier** — Padrões de código  
+
+---  
+
+## 🗺️ Fluxo da Aplicação  
+
+```mermaid
+graph TD  
+A[Login] --> B[Dashboard da Clínica]  
+B --> C[Gerenciar Médicos]  
+B --> D[Gerenciar Pacientes]  
+B --> E[Gerenciar Agendamentos]  
+
+C --> C1[Adicionar Médico]  
+C --> C2[Editar Médico]  
+C --> C3[Excluir Médico]  
+
+D --> D1[Adicionar Paciente]  
+D --> D2[Editar Paciente]  
+D --> D3[Excluir Paciente]  
+
+E --> E1[Criar Agendamento]  
+E --> E2[Listar Agendamentos]  
+E --> E3[Cancelar Agendamento]  
