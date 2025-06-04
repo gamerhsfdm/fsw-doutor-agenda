@@ -1,7 +1,5 @@
-import { Button } from "@/components/ui/button";
+import { redirect } from "next/navigation";
 
-const Home = () => {
-  return <Button>Bootcamp!</Button>
-};
-
-export default Home;
+export default function Home() {
+  redirect("/dashboard");
+}
