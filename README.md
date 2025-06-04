@@ -17,8 +17,6 @@
 - Cadastro de clínicas  
 - Configuração de informações do estabelecimento  
 
-![Planos](./public/planos.png)
-
 ### ✅ Profissionais de Saúde  
 - Cadastro de médicos e profissionais da saúde  
 - Edição e atualização de informações  
